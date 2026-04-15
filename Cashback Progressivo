@@ -1,0 +1,17 @@
+algoritmo "Cashback"
+var
+   valor, cashback : real
+inicio
+   escreva("Digite o valor da compra: ")
+   leia(valor)
+
+   se (valor > 500) entao
+      cashback <- valor * 0.10
+   senao se (valor >= 200) entao
+      cashback <- valor * 0.05
+   senao
+      cashback <- 0
+   fimse
+
+   escreva("Cashback: R$ ", cashback)
+fimalgoritmo
