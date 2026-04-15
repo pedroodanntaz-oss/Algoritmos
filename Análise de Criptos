@@ -1,0 +1,19 @@
+algoritmo "Cripto"
+var
+   nome : caractere
+   variacao : real
+inicio
+   escreva("Nome da criptomoeda: ")
+   leia(nome)
+
+   escreva("Variação percentual: ")
+   leia(variacao)
+
+   se (variacao > 10) entao
+      escreva("Alta Relevante")
+   senao se (variacao < -10) entao
+      escreva("Correção Forte")
+   senao
+      escreva("Estabilidade")
+   fimse
+fimalgoritmo
