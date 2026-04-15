@@ -1,0 +1,15 @@
+algoritmo "Importacao"
+var
+   valor, imposto : real
+inicio
+   escreva("Valor do produto em dólares: ")
+   leia(valor)
+
+   se (valor > 50) entao
+      imposto <- valor * 0.60
+   senao
+      imposto <- valor * 0.17
+   fimse
+
+   escreva("Imposto: $ ", imposto)
+fimalgoritmo
