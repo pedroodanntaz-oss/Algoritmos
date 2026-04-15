@@ -1,0 +1,15 @@
+algoritmo "Dividendos"
+var
+   dy : real
+inicio
+   escreva("Digite o Dividend Yield: ")
+   leia(dy)
+
+   se (dy > 6) entao
+      escreva("Estratégia de Renda Passiva OK")
+   senao se (dy >= 4) e (dy <= 6) entao
+      escreva("Atenção: Rendimento Médio")
+   senao
+      escreva("Rendimento Baixo")
+   fimse
+fimalgoritmo
