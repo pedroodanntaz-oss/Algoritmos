@@ -1,0 +1,19 @@
+algoritmo "Categoria_Esports"
+var
+   idade : inteiro
+inicio
+   escreva("Digite a idade do jogador: ")
+   leia(idade)
+
+   se (idade >= 12) e (idade <= 14) entao
+      escreva("Mirim")
+   senao se (idade >= 15) e (idade <= 17) entao
+      escreva("Junior")
+   senao se (idade >= 18) e (idade <= 25) entao
+      escreva("Profissional")
+   senao se (idade > 25) entao
+      escreva("Master")
+   senao
+      escreva("Idade inválida")
+   fimse
+fimalgoritmo
