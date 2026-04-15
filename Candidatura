@@ -1,0 +1,16 @@
+algoritmo "Filtro_Candidato"
+var
+   idade, projetos : inteiro
+inicio
+   escreva("Digite sua idade: ")
+   leia(idade)
+
+   escreva("Quantos projetos no GitHub: ")
+   leia(projetos)
+
+   se (idade > 18) e (projetos >= 5) entao
+      escreva("Aprovado para entrevista")
+   senao
+      escreva("Não aprovado")
+   fimse
+fimalgoritmo
